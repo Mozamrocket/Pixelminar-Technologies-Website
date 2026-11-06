@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pixelminar Technologies – Simple, useful apps</title>
-  <meta name="description" content="Pixelminar Technologies builds simple, privacy-friendly mobile apps: Azan Reminder, Dawai Dost medicine reminder and Expense Tracker.">
+  <meta name="description" content="Pixelminar Technologies builds simple, privacy-friendly mobile apps: Azan &amp; Deen (prayer times, Islamic learning and online Quran classes), Dawai Dost and Expense Tracker.">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
     <a href="index.html" class="logo"><img src="assets/logo.svg" alt="" width="34" height="34"> Pixelminar Technologies</a>
     <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
     <ul class="nav-links">
+      <li><a href="#azan-deen">Azan &amp; Deen</a></li>
       <li><a href="#apps">Apps</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -30,38 +31,67 @@
     <div class="container">
       <span class="eyebrow">Mobile app studio</span>
       <h1>Useful apps for <span>everyday life</span></h1>
-      <p>Pixelminar Technologies designs and builds simple, reliable and privacy-friendly Android apps that help people pray on time, take their medicines on time and keep their money in check.</p>
+      <p>Pixelminar Technologies designs and builds simple, reliable and privacy-friendly Android apps, starting with Azan &amp; Deen: prayer times, Islamic learning and online Quran classes for the whole family.</p>
       <div class="btns">
-        <a href="#apps" class="btn btn-primary">Explore our apps</a>
+        <a href="#azan-deen" class="btn btn-primary">Explore Azan &amp; Deen</a>
         <a href="#contact" class="btn">Contact us</a>
       </div>
     </div>
   </section>
 
+  <section id="azan-deen" class="showcase">
+    <div class="container">
+      <div class="showcase-head">
+        <img src="assets/azan/icon.png" alt="Azan &amp; Deen app icon" width="88" height="88" class="showcase-icon">
+        <div>
+          <span class="eyebrow">Featured app</span>
+          <h2 class="section-title">Azan &amp; Deen</h2>
+          <p class="section-sub">Prayer times, Azan reminders, Roza, Qibla, Tasbih, Islamic stories and online Quran classes with trusted Imams, all in one simple app. Available in English, Hindi, Urdu and Arabic.</p>
+          <div class="btns">
+            <!-- <a href="https://play.google.com/store/apps/details?id=com.mozamrocket.azandeen" class="btn btn-primary">Get it on Google Play</a> -->
+            <a href="privacy/azan.html" class="btn">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="shots" tabindex="0" aria-label="App screenshots">
+        <img src="assets/azan/home.jpg" alt="Home screen with next prayer countdown" loading="lazy" width="540" height="960">
+        <img src="assets/azan/widgets.jpg" alt="Home-screen widgets for next Azan and Sehri/Iftar" loading="lazy" width="540" height="960">
+        <img src="assets/azan/calendar.jpg" alt="Islamic calendar and Qibla finder" loading="lazy" width="540" height="960">
+        <img src="assets/azan/tasbih.jpg" alt="Tasbih counter and daily wazifa" loading="lazy" width="540" height="960">
+        <img src="assets/azan/roze.jpg" alt="Sehri and Iftar reminder settings" loading="lazy" width="540" height="960">
+        <img src="assets/azan/home_hi.jpg" alt="App in Hindi" loading="lazy" width="540" height="960">
+      </div>
+
+      <div class="grid features">
+        <div class="card"><div class="f-ico">🕌</div><h3>Prayer times &amp; Azan</h3><p>Automatic times for your city with 12 calculation methods and Hanafi or Shafi Asr. Azan, advance and Jamaat reminders even when the app is closed. Jumu'ah replaces Zohar on Fridays.</p></div>
+        <div class="card"><div class="f-ico">⏱️</div><h3>Your masjid's time</h3><p>Set your own masjid time for any prayer, including how much it shifts each day. Turn Azan or Jamaat on or off per prayer.</p></div>
+        <div class="card"><div class="f-ico">🌙</div><h3>Roza, Tahajjud &amp; Jumu'ah</h3><p>Sehri and Iftar reminders, automatic or by your masjid time, plus separate Tahajjud and Jumu'ah reminders.</p></div>
+        <div class="card"><div class="f-ico">📅</div><h3>Islamic calendar &amp; Qibla</h3><p>Hijri calendar with important dates like Ramadan, Eid and Ashura, moon-sighting adjustment and a compass Qibla finder.</p></div>
+        <div class="card"><div class="f-ico">📿</div><h3>Tasbih &amp; Wazifa</h3><p>Tasbih counter with vibration, rounds and your own daily wazifa. Your record stays only on your phone.</p></div>
+        <div class="card"><div class="f-ico">📖</div><h3>Islamic Learning</h3><p>Stories, audio, videos and books for children and families, in English, Hinglish or Urdu.</p></div>
+        <div class="card"><div class="f-ico">👳</div><h3>Imam Connect</h3><p>Find approved Imams by city, language and fiqh. Listen to their recitation, then request a consultation or Quran tuition.</p></div>
+        <div class="card"><div class="f-ico">🎓</div><h3>Online Quran classes</h3><p>Pick days, time slot and start date. Once the Imam confirms, classes are scheduled automatically with a Google Meet link for every session.</p></div>
+        <div class="card"><div class="f-ico">📱</div><h3>Widgets &amp; languages</h3><p>Home-screen widgets for the next Azan and tomorrow's Sehri &amp; Iftar. Use the app in English, Hindi, Urdu or Arabic, for Sunni or Shia fiqh.</p></div>
+      </div>
+      <p class="fine">Free to use. Family-friendly ads keep the app free; subscribe monthly or yearly to remove them. An account is needed only for Imam Connect.</p>
+    </div>
+  </section>
+
   <section id="apps" class="section-soft">
     <div class="container">
-      <h2 class="section-title">Our apps</h2>
+      <h2 class="section-title">All our apps</h2>
       <p class="section-sub">Each app does one job and does it well: clean design, works offline where possible, and no unnecessary permissions.</p>
 
       <div class="grid">
         <article class="card app-card">
-          <div class="app-icon" style="background:linear-gradient(135deg,#059669,#10b981)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
-          </div>
+          <img src="assets/azan/icon.png" alt="" width="56" height="56" class="app-icon">
           <span class="badge">Lifestyle</span>
-          <h3>Azan Reminder</h3>
-          <p>Daily prayer times with Azan alerts, Jamaat reminders and Ramadan Sehri &amp; Iftar timings.</p>
-          <ul>
-            <li>Prayer times for your city, with multiple calculation &amp; Asr methods</li>
-            <li>Full Azan or short sound alerts for every prayer</li>
-            <li>Per-prayer manual time and minute-by-minute corrections</li>
-            <li>Jamaat, Tahajjud and Jumu'ah reminders</li>
-            <li>Roze: Sehri &amp; Iftar times and reminders</li>
-            <li>Islamic Learning: stories, bedtime audio &amp; worksheets <em>(coming soon)</em></li>
-          </ul>
+          <h3>Azan &amp; Deen</h3>
+          <p>Prayer times, Azan reminders, Roza, Qibla, Tasbih, Islamic learning and online Quran classes with Imams.</p>
           <div class="links">
+            <a href="#azan-deen">See features</a>
             <a href="privacy/azan.html">Privacy Policy</a>
-            <!-- <a href="https://play.google.com/store/apps/details?id=YOUR.PACKAGE.NAME">Get it on Google Play</a> -->
           </div>
         </article>
 
