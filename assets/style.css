@@ -129,7 +129,7 @@ section { padding: 80px 0; }
 .showcase .section-sub { margin-bottom: 0; }
 .showcase .btns { margin-top: 20px; }
 @media (max-width: 600px) { .showcase-head { flex-direction: column; } .showcase-icon { width: 72px; height: 72px; } }
-.shots { display: flex; gap: 16px; overflow-x: auto; padding: 36px 2px 20px; scroll-snap-type: x mandatory; }
+.shots { display: flex; align-items: flex-start; gap: 16px; overflow-x: auto; padding: 36px 2px 20px; scroll-snap-type: x mandatory; }
 .shots img { width: 220px; height: auto; flex-shrink: 0; border-radius: 18px; border: 1px solid var(--border); scroll-snap-align: start; }
 .features { margin-top: 24px; }
 .features .card { padding: 24px; }
