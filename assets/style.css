@@ -140,7 +140,7 @@ section { padding: 80px 0; }
 img.app-icon { border-radius: 14px; }
 section[id] { scroll-margin-top: 68px; }
 
-/* Imam Connect highlight */
+/* Imam Direct highlight */
 .imam-connect { --teal: #13a89a; padding: 72px 0; border-top: 1px solid var(--border);
   background: radial-gradient(700px 320px at 10% 0%, color-mix(in srgb, var(--teal) 16%, transparent), transparent),
               radial-gradient(600px 300px at 95% 30%, color-mix(in srgb, #f6a98a 18%, transparent), transparent); }
