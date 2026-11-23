@@ -139,3 +139,15 @@ section { padding: 80px 0; }
 .fine { color: var(--muted); font-size: .9rem; margin-top: 24px; }
 img.app-icon { border-radius: 14px; }
 section[id] { scroll-margin-top: 68px; }
+
+/* Imam Connect highlight */
+.imam-connect { --teal: #13a89a; padding: 72px 0; border-top: 1px solid var(--border);
+  background: radial-gradient(700px 320px at 10% 0%, color-mix(in srgb, var(--teal) 16%, transparent), transparent),
+              radial-gradient(600px 300px at 95% 30%, color-mix(in srgb, #f6a98a 18%, transparent), transparent); }
+.imam-connect .section-title { margin-top: 12px; }
+.imam-connect .section-sub { margin-bottom: 0; }
+.eyebrow-imam { color: #0e8a7e; background: color-mix(in srgb, #13a89a 14%, transparent); }
+.imam-connect .features .card { border-color: color-mix(in srgb, #13a89a 30%, var(--border)); }
+.btn-imam { border-color: #13a89a; color: #0e8a7e; font-weight: 700; }
+.btn-imam:hover { background: color-mix(in srgb, #13a89a 10%, transparent); border-color: #13a89a; }
+@media (prefers-color-scheme: dark) { .eyebrow-imam, .btn-imam { color: #4fd1c2; } }
